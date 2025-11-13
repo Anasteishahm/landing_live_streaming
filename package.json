@@ -1,0 +1,20 @@
+{
+  "name": "landing_live_streaming",
+  "version": "1.0.0",
+  "description": "landing page",
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/anasteishahm/landing_live_streaming.git)"
+  },
+  "license": "ISC",
+  "author": "Anastasiya",
+  "type": "commonjs",
+  "sourse": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.1",
+    "sass": "^1.94.0"
+  }
+}
