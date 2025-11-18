@@ -92,6 +92,18 @@ li {
   font-weight: 400;
   color: #ffffff;
 }
+@media (max-width: 992px) {
+  .header .nav__links .list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    column-gap: min(100px, 5vw);
+    row-gap: 0;
+    padding: 0 0 0 0;
+  }
+}
 .header .nav .covid {
   height: 100%;
   display: flex;
@@ -125,8 +137,75 @@ li {
   height: 28px;
 }
 
+.hero {
+  position: relative;
+  max-width: 1260px;
+  height: 830px;
+  margin: 0 auto;
+  padding: 140px 0 0 0;
+  background: url("../images/main-cloud.png") center/contain no-repeat;
+}
+.hero__content {
+  position: relative;
+  width: 900px;
+  margin: 0 auto;
+}
+.hero__content .hero__title {
+  font-size: 110px;
+  font-weight: 700;
+  font-style: normal;
+  color: #000000;
+  line-height: 1;
+}
+.hero__content .hero__action-btn {
+  width: 380px;
+  height: 80px;
+  border: none;
+  cursor: pointer;
+  border-radius: 45px;
+  background-color: #000000;
+  font-size: 28px;
+  font-weight: 500;
+  font-style: normal;
+  color: #ffffff;
+  position: absolute;
+  z-index: 1;
+  bottom: 15px;
+  right: 0;
+}
+.hero__content .hero__action-btn:hover {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.hero__content .hero__action-btn:focus {
+  outline: none;
+}
+.hero__content .hero__action-btn:focus-visible {
+  outline: 2px solid #ffffff;
+}
+.hero__notify {
+  position: relative;
+  margin: 170px auto 0;
+  width: 680px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  column-gap: 10px;
+  row-gap: 0;
+}
+.hero__notify-img {
+  position: absolute;
+  z-index: 1;
+  top: -75px;
+  left: -35px;
+}
+
 body {
-  background-color: #678FF2;
+  background-color: #617cc2;
 }
 
 /*# sourceMappingURL=index.css.map */
