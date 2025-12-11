@@ -224,12 +224,45 @@
         </div>
     </section>
 
-    <section class="testimonials-section">
+    <section class="testimonials-section" aria-label="testimonials section">
         <div class="container">
             <div class="testimonials">
                 <h2 class="testimonials-title">Testimonials</h2>
 
-                <div class="testimonials__slider"></div>
+                <div class="testimonials__slider slider">
+                    <figure class="wave-card">
+                        <img src="./images/avatar.png" alt="" class="wave-card__avatar">
+
+                        <blockquote class="wave-card__quote" cite="https://happyclient.com">
+                            <p>
+                                A very good review left by a satisfied client.
+                                I haven't figured out what to write here yet,
+                                so I just added this sentence.
+                            </p>
+                        </blockquote>
+                    </figure>
+
+                    <button class="slider__left-btn">
+                        <svg class="slider__left-btn-icon" aria-label="arrow icon">
+                           <use href="assets/sprites.svg#arrow-icon"></use>
+                        </svg>
+                    </button>
+
+                    <button class="slider__right-btn">
+                        <svg class="slider__right-btn-icon" aria-label="arrow icon">
+                            <use href="assets/sprites.svg#arrow-icon"></use>
+                        </svg>
+                    </button>
+
+                    <div class="slider__points">
+                        <div class="slider__points-item"></div>
+                        <div class="slider__points-item"></div>
+                        <div class="slider__points-item"></div>
+                        <div class="slider__points-item"></div>
+                        <div class="slider__points-item"></div>
+                        <div class="slider__points-item"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
